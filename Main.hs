@@ -23,4 +23,4 @@ main = Warp.runSettings warpSettings $ \_req respond ->
         handleTerm = do
           putStrLn "Received SIGTERM. Closing socket..."
           closeSocket
-          putStrLn "Listening closed."
+          putStrLn "Socket closed."
