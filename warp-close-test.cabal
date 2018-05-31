@@ -1,0 +1,14 @@
+name:                warp-close-test
+version:             0.1.0.0
+license:             BSD3
+license-file:        LICENSE
+author:              Bas van Dijk
+maintainer:          v.dijk.bas@gmail.com
+build-type:          Simple
+extra-source-files:  ChangeLog.md
+cabal-version:       >=1.10
+
+executable warp-close-test
+  main-is:             Main.hs
+  build-depends:       base, unix, wai, warp, http-types
+  default-language:    Haskell2010
